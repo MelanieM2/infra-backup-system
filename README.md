@@ -6,7 +6,8 @@ In a sense, this is **Project 0** in a multi-stage personal systems engineering 
 
 * **Project 1:** AI-assisted research digester (arXiv + Gemini pipeline)
 * **Project 2:** Linux inspection and system analysis tooling
-* **Project 3:** Log Analyzer 
+* **Project 3:** Log Analyzer (not yet published)
+* **etc:**  See below in projects list
 
 ---
 
