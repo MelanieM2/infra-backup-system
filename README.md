@@ -276,20 +276,18 @@ By separating concerns into distinct layers (local development, remote mirror, a
 
 ## Development Notes & AI Usage
 
-### AI-Assisted Engineering Workflow
+### Development Methodology & AI Transparency
 
-This project was developed using large language models (LLMs), including Google Gemini and Anthropic Claude, as interactive pair-programming tools to support exploration of system design, code structuring, and implementation details.
+This repository is the result of an independent learning and development workflow, not agentic automation. While LLMs, such as Google Gemini and Anthropic Claude, were used to:
 
-LLMs were used for:
+* generate structural snippets,
+* clarify unfamiliar concepts,
+* explore architectural design options,
+* review and iterate on code structure,
+* accelerate development of boilerplate and automation logic,
 
-* Clarifying unfamiliar concepts
-* Exploring architectural design options
-* Reviewing and iterating on code structure
-* Accelerating development of boilerplate and automation logic
+their output was above all used as a learning foundation. I evaluated, corrected, and manually typed the implementation to ensure a personal understanding of system design principles in Linux and Python.
 
-All generated code was carefully reviewed, tested, and validated by the author to ensure correctness and full understanding of the implemented system.
-
-The final codebase reflects a combination of AI-assisted development and manual engineering decisions, with emphasis on maintainability, security, system-level clarity, and personal learning.
 
 ---
 
@@ -303,9 +301,17 @@ The topics listed below offer a flexible, evolving, experimental playground for 
 - Linux automation tools
 - Log analysis utilities
 - File synchronization systems
-- Backup and remote infrastructure (Project 0 foundation)
+- Backup and remote infrastructure 
 - System inspection tooling (see 'linux-system-inspector' Project)
+- ...
 
+### AI-Assisted Data Engineering
+- End-to-end research paper summarization pipeline (see 'research_digester' Project)
+- ...
+
+### ...
+
+<!-- 
 ### Data Science & Applied Analysis
 - Regional housing price dynamics and affordability modeling under macroeconomic conditions (Austria / Europe)
 - Macroeconomic signal decomposition (inflation, wages, interest rates) and structural trend analysis
@@ -346,9 +352,11 @@ The topics listed below offer a flexible, evolving, experimental playground for 
 - AI-assisted mathematical reasoning tools for theoretical exploration and model abstraction
 ---
 
+-->
+
 ## Long-Term Direction
 
-The long-term goal is to develop expertise at the intersection of mathematics, data science, artificial intelligence, and systems engineering, bridging theoretical foundations in machine learning and deep learning with practical experience in software development, automation, and production-grade systems.
+The long-term goal is to develop expertise at the intersection of mathematics, data science, artificial intelligence, and systems engineering, bridging mathematical foundations in machine learning and deep learning with practical experience in software development, automation, and production-grade systems.
 
 ## Feedback
 
