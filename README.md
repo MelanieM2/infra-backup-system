@@ -6,7 +6,8 @@ In a sense, this is **Project 0** in a multi-stage personal systems engineering 
 
 * **Project 1:** AI-assisted research digester (arXiv + Gemini pipeline)
 * **Project 2:** Linux inspection and system analysis tooling
-* **Project 3:** Log Analyzer (not yet published)
+* **Project 3:** Log Analyzer
+* **Project 4:** SQL-agent
 * **etc:**  See below in projects list
 
 ---
@@ -306,6 +307,7 @@ The topics listed below offer a flexible, evolving, experimental playground for 
 
 ### AI-Assisted Data Engineering
 - End-to-end research paper summarization pipeline (see 'research_digester' Project)
+- Agentic SQL assistant — natural language querying over structured log data via SQLite and Gemini (see 'sql-agent' Project)
 - ...
 
 ### ...
@@ -335,7 +337,7 @@ The topics listed below offer a flexible, evolving, experimental playground for 
 
 ---
 
-### AI-Assisted Data Engineering
+### AI-Assisted Data Engineering (some of these have been already implemented)
 - End-to-end research paper summarization pipeline (see 'research_digester' Project)
 - LLM-assisted extraction, transformation, and structuring of unstructured scientific text
 - AI-supported data exploration and automated insight generation workflows
