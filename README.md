@@ -1,6 +1,6 @@
 # Local Development Infrastructure & Backup System
 
-This project implements a secure local development and backup infrastructure using SSH, rsync, and Git. It connects a WSL2 development environment to a hardened Linux server, enabling automated backups, Git mirroring, and remote filesystem access over SSH.
+This short project implements a secure local development and backup infrastructure using SSH, rsync, and Git. It connects my WSL2 development environment to a hardened Linux server, enabling automated backups, Git mirroring, and remote filesystem access over SSH.
 
 In a sense, this is **Project 0** in a multi-stage personal systems engineering stack, including:
 
@@ -8,6 +8,7 @@ In a sense, this is **Project 0** in a multi-stage personal systems engineering 
 * **Project 2:** Linux inspection and system analysis tooling
 * **Project 3:** Log Analyzer
 * **Project 4:** SQL-agent
+* **Project 5:** ML-agent
 * **etc:**  See below in projects list
 
 ---
@@ -124,9 +125,9 @@ Virtual environments are never synchronized. They are reproducible via `uv` and 
 
 ---
 
-### Automation Pipeline (automate.sh)
+### Automation Pipeline (```automate.sh```)
 
-The automation script orchestrates the full workflow:
+The automation script ```automate.sh```, built in [research_digester](https://github.com/MelanieM2/research_digester), orchestrates the full workflow:
 
 1. Execute project-level Python scripts
 2. Detect changes in tracked output files via Git
